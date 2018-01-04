@@ -11,11 +11,11 @@ public class 2sem2of18 {
     int mas[] = new int[7];
     for(int i = 1; i <= count; i++) {
         mas[i] = rand.nextInt(6);
-        System.out.println("Ð§Ð¸ÑÐ»Ð¾ - " + mas[i]);
+        System.out.println("×èñëî - " + mas[i]);
         sum += mas[i];
     }
 
-    System.out.println("Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ - " + (sum/count));
+    System.out.println("Ñðåäíåå - " + (sum/count));
     }
 
 }
